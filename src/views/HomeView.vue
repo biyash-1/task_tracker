@@ -1,5 +1,5 @@
 <script setup>
-import { Button } from 'primevue/button'
+
 import { useRouter } from 'vue-router'
 
 const router = useRouter()
@@ -7,6 +7,7 @@ const router = useRouter()
 const handleStart = () => {
   router.push('/login')
 }
+import Button from 'primevue/button'
 </script>
 
 <template>
@@ -34,7 +35,7 @@ const handleStart = () => {
       <!-- Right Column: Burger Image -->
       <div class="flex items-center justify-center">
         <img
-          src="/src/assets/burgerimage.jpg"
+          src="/src/assets/taskimage.jpg"
           alt="Delicious burger"
           class="w-full max-w-md rounded-lg shadow-lg"
         />
